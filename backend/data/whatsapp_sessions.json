@@ -1,0 +1,310 @@
+{
+  "918688531922": {
+    "name": "dheeraj",
+    "status": "location_received",
+    "latitude": 17.5190867,
+    "longitude": 78.367985,
+    "address_text": null,
+    "injured": "no",
+    "people_count": "100",
+    "history": [
+      {
+        "role": "User",
+        "text": "No"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "How many people are with you right now?"
+      },
+      {
+        "role": "User",
+        "text": "100"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Your emergency report is active. Responders have been alerted. Your safest available evacuation point is HITEX Exhibition Center Safe Zone. Estimated road distance: 11.899 km; about 15.06 min. Navigation: https://www.google.com/maps/dir/?api=1&destination=17.45,78.39&travelmode=driving Stay safe and follow responder instructions."
+      },
+      {
+        "role": "User",
+        "text": "Hi"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      },
+      {
+        "role": "User",
+        "text": "Help"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      },
+      {
+        "role": "User",
+        "text": "Hi bro"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Hello. I am Raksha. To help you quickly, please share your precise location."
+      },
+      {
+        "role": "User",
+        "text": "Hi"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Hello. We need your location to send assistance."
+      },
+      {
+        "role": "User",
+        "text": "Help"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      },
+      {
+        "role": "User",
+        "text": "Help me"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "I understand you need help. Please share your exact location so we can send assistance."
+      },
+      {
+        "role": "User",
+        "text": "Help"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      },
+      {
+        "role": "User",
+        "text": "Help"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      },
+      {
+        "role": "User",
+        "text": "What can you do"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      },
+      {
+        "role": "User",
+        "text": "Hi"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      },
+      {
+        "role": "User",
+        "text": "Okay"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      },
+      {
+        "role": "User",
+        "text": "Hi"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      },
+      {
+        "role": "User",
+        "text": "Hi"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      },
+      {
+        "role": "User",
+        "text": "Help"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      },
+      {
+        "role": "User",
+        "text": "Help"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      },
+      {
+        "role": "User",
+        "text": "Help"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      },
+      {
+        "role": "User",
+        "text": "Bue"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      },
+      {
+        "role": "User",
+        "text": "Help"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      },
+      {
+        "role": "User",
+        "text": "Help"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "I understand you need help. Please share your location so we can assist you quickly."
+      },
+      {
+        "role": "User",
+        "text": "What can you do"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "I can connect you with emergency services. Please share your location so we can send help to you."
+      },
+      {
+        "role": "User",
+        "text": "Hello"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      },
+      {
+        "role": "User",
+        "text": "What can you do"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      }
+    ]
+  },
+  "918919576735": {
+    "name": "K. Charan Sai Kumar",
+    "status": "location_received",
+    "latitude": 17.5193987,
+    "longitude": 78.368059,
+    "address_text": null,
+    "injured": "Hi",
+    "people_count": "1000",
+    "history": [
+      {
+        "role": "User",
+        "text": "Hi"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "How many people are with you right now?"
+      },
+      {
+        "role": "User",
+        "text": "1000"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Your emergency report is active. Responders have been alerted. Your safest available evacuation point is HITEX Exhibition Center Safe Zone. Estimated road distance: 11.899 km; about 15.06 min. Navigation: https://www.google.com/maps/dir/?api=1&destination=17.45,78.39&travelmode=driving Stay safe and follow responder instructions."
+      },
+      {
+        "role": "User",
+        "text": "Help"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      },
+      {
+        "role": "User",
+        "text": "Hey"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Your location is crucial for us to send help. Can you please share it?"
+      },
+      {
+        "role": "User",
+        "text": "Hi"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      },
+      {
+        "role": "User",
+        "text": "Ji"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      }
+    ]
+  },
+  "918978476180": {
+    "name": "Ronald Jose Augustine",
+    "status": "location_received",
+    "latitude": 17.51939946,
+    "longitude": 78.36785328,
+    "address_text": null,
+    "injured": "yes",
+    "people_count": 5,
+    "history": [
+      {
+        "role": "User",
+        "text": "Yes"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "How many people are with you right now?"
+      },
+      {
+        "role": "User",
+        "text": "5"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Your emergency report is active. Responders have been alerted. Your safest available evacuation point is HITEX Exhibition Center Safe Zone. Estimated road distance: 11.899 km; about 15.06 min. Navigation: https://www.google.com/maps/dir/?api=1&destination=17.45,78.39&travelmode=driving Stay safe and follow responder instructions."
+      }
+    ]
+  },
+  "916301782424": {
+    "name": "Mahathi",
+    "status": "awaiting_injury",
+    "latitude": 17.5205925,
+    "longitude": 78.3673343,
+    "address_text": null,
+    "injured": null,
+    "people_count": null,
+    "history": [
+      {
+        "role": "User",
+        "text": "Help"
+      },
+      {
+        "role": "RAKSHA",
+        "text": "Please share your location so responders can find you."
+      }
+    ]
+  }
+}

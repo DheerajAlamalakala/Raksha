@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+a2wsgi
+flask
+python-dotenv
+requests
+scipy
+google-generativeai
+openai
+aiohttp

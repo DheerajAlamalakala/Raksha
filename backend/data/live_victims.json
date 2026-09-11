@@ -1,0 +1,243 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4744,
+          17.3616
+        ]
+      },
+      "properties": {
+        "type": "victim",
+        "victim_id": "VIC_001",
+        "building_id": "BLD_HYD_001",
+        "status": "Trapped",
+        "latitude": 17.3616,
+        "longitude": 78.4744
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4867,
+          17.385
+        ]
+      },
+      "properties": {
+        "type": "victim",
+        "victim_id": "VIC_002",
+        "building_id": "BLD_HYD_002",
+        "status": "Injured",
+        "latitude": 17.385,
+        "longitude": 78.4867
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4735,
+          17.4435
+        ]
+      },
+      "properties": {
+        "type": "victim",
+        "victim_id": "VIC_003",
+        "building_id": "BLD_HYD_003",
+        "status": "Trapped",
+        "latitude": 17.4435,
+        "longitude": 78.4735
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.48,
+          17.375
+        ]
+      },
+      "properties": {
+        "type": "responder",
+        "responder_id": "DRF_UNIT_01",
+        "name": "Disaster Response Force Unit 1",
+        "latitude": 17.375,
+        "longitude": 78.48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.46,
+          17.43
+        ]
+      },
+      "properties": {
+        "type": "responder",
+        "responder_id": "FIRE_UNIT_04",
+        "name": "Telangana Fire Services Squad 4",
+        "latitude": 17.43,
+        "longitude": 78.46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.395,
+          17.442
+        ]
+      },
+      "properties": {
+        "type": "responder",
+        "responder_id": "MED_UNIT_02",
+        "name": "108 Emergency Ambulance Unit 2",
+        "latitude": 17.442,
+        "longitude": 78.395
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.548,
+          17.352
+        ]
+      },
+      "properties": {
+        "type": "victim",
+        "victim_id": "REQ-110",
+        "status": "Reported",
+        "people_count": 4,
+        "source": "Drill",
+        "report_count": 1,
+        "area_status": "Disaster Prone"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4735,
+          17.4435
+        ]
+      },
+      "properties": {
+        "type": "victim",
+        "victim_id": "REQ-111",
+        "status": "Reported",
+        "people_count": 5,
+        "source": "Drill",
+        "report_count": 1,
+        "area_status": "Disaster Prone"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.36765312729163,
+          17.520006933297044
+        ]
+      },
+      "properties": {
+        "type": "victim",
+        "victim_id": "REQ-112",
+        "status": "Reported",
+        "people_count": 1,
+        "source": "Web",
+        "report_count": 1,
+        "area_status": "Watch"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.36765312729163,
+          17.520006933297044
+        ]
+      },
+      "properties": {
+        "type": "victim",
+        "victim_id": "REQ-113",
+        "status": "Reported",
+        "people_count": 1,
+        "source": "Web",
+        "report_count": 1,
+        "area_status": "High Alert"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3674497665617,
+          17.520208714792833
+        ]
+      },
+      "properties": {
+        "type": "victim",
+        "victim_id": "REQ-114",
+        "status": "Reported",
+        "people_count": 1,
+        "source": "Web",
+        "report_count": 1,
+        "area_status": "Disaster Prone"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4735,
+          17.4435
+        ]
+      },
+      "properties": {
+        "type": "victim",
+        "victim_id": "REQ-115",
+        "status": "Reported",
+        "people_count": 5,
+        "source": "Drill",
+        "report_count": 1,
+        "area_status": "Disaster Prone"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4735,
+          17.4435
+        ]
+      },
+      "properties": {
+        "type": "victim",
+        "victim_id": "REQ-116",
+        "status": "Reported",
+        "people_count": 5,
+        "source": "Drill",
+        "report_count": 1,
+        "area_status": "Disaster Prone"
+      }
+    }
+  ]
+}

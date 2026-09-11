@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ACT-20260911142321411442",
+    "kind": "incident.created",
+    "message": "REQ-116 received from Drill",
+    "request_id": "REQ-116",
+    "timestamp": "2026-09-11T14:23:21.411442",
+    "meta": {
+      "source": "Drill",
+      "report_count": 1,
+      "area_status": "Disaster Prone"
+    }
+  },
+  {
+    "id": "ACT-20260911125058302106",
+    "kind": "incident.created",
+    "message": "REQ-115 received from Drill",
+    "request_id": "REQ-115",
+    "timestamp": "2026-09-11T12:50:58.302106",
+    "meta": {
+      "source": "Drill",
+      "report_count": 1,
+      "area_status": "Disaster Prone"
+    }
+  },
+  {
+    "id": "ACT-20260911123848131638",
+    "kind": "incident.created",
+    "message": "REQ-114 received from Web",
+    "request_id": "REQ-114",
+    "timestamp": "2026-09-11T12:38:48.131638",
+    "meta": {
+      "source": "Web",
+      "report_count": 1,
+      "area_status": "Disaster Prone"
+    }
+  },
+  {
+    "id": "ACT-20260911123228911305",
+    "kind": "incident.created",
+    "message": "REQ-113 received from Web",
+    "request_id": "REQ-113",
+    "timestamp": "2026-09-11T12:32:28.911305",
+    "meta": {
+      "source": "Web",
+      "report_count": 1,
+      "area_status": "High Alert"
+    }
+  },
+  {
+    "id": "ACT-20260911123221472909",
+    "kind": "incident.created",
+    "message": "REQ-112 received from Web",
+    "request_id": "REQ-112",
+    "timestamp": "2026-09-11T12:32:21.472909",
+    "meta": {
+      "source": "Web",
+      "report_count": 1,
+      "area_status": "Watch"
+    }
+  },
+  {
+    "id": "ACT-20260911122521262185",
+    "kind": "incident.created",
+    "message": "REQ-111 received from Drill",
+    "request_id": "REQ-111",
+    "timestamp": "2026-09-11T12:25:21.262185",
+    "meta": {
+      "source": "Drill",
+      "report_count": 1,
+      "area_status": "Disaster Prone"
+    }
+  },
+  {
+    "id": "ACT-20260911114405698870",
+    "kind": "incident.created",
+    "message": "REQ-110 received from Drill",
+    "request_id": "REQ-110",
+    "timestamp": "2026-09-11T11:44:05.698870",
+    "meta": {
+      "source": "Drill",
+      "report_count": 1,
+      "area_status": "Disaster Prone"
+    }
+  },
+  {
+    "id": "ACT-SEED-01",
+    "kind": "system",
+    "message": "GIS risk layer synchronized",
+    "request_id": null,
+    "timestamp": "2026-09-11T09:40:00",
+    "meta": {}
+  },
+  {
+    "id": "ACT-SEED-02",
+    "kind": "incident.created",
+    "message": "REQ-101 received from GIS seed",
+    "request_id": "REQ-101",
+    "timestamp": "2026-09-11T09:41:00",
+    "meta": {}
+  },
+  {
+    "id": "ACT-SEED-03",
+    "kind": "dispatch.created",
+    "message": "DRF_UNIT_01 dispatched to REQ-101",
+    "request_id": "REQ-101",
+    "timestamp": "2026-09-11T09:42:00",
+    "meta": {
+      "responder_id": "DRF_UNIT_01"
+    }
+  },
+  {
+    "id": "ACT-SEED-04",
+    "kind": "incident.created",
+    "message": "REQ-102 received from WhatsApp",
+    "request_id": "REQ-102",
+    "timestamp": "2026-09-11T09:47:00",
+    "meta": {}
+  },
+  {
+    "id": "ACT-SEED-05",
+    "kind": "incident.created",
+    "message": "REQ-103 received from Web",
+    "request_id": "REQ-103",
+    "timestamp": "2026-09-11T09:53:00",
+    "meta": {}
+  }
+]

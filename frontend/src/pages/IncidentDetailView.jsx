@@ -1,0 +1,29 @@
+import { useEffect, useState } from "react";
+import Header from "../components/Header.jsx";
+import MapContainer from "../components/MapContainer.jsx";
+import { getActivity, getIncident, getIncidentHistory, updateAssistanceRequest } from "../services/api.js";
+import { useTabRefresh } from "../utils/useTabRefresh.js";
+
+const steps=["Pending","Acknowledged","Dispatched","On Scene","Resolved"];
+const statusClass=s=>String(s||"").toLowerCase().replace(/\s+/g,"-");
+
+export default function IncidentDetailView({requestId,onBack,onNavigate}){
+ const[item,setItem]=useState(null),[activity,setActivity]=useState([]),[history,setHistory]=useState({report_history:[],status_history:[]}),[busy,setBusy]=useState(false),[operatorNote,setOperatorNote]=useState("");
+ const load=async()=>{try{const[a,b,c]=await Promise.all([getIncident(requestId),getActivity(30),getIncidentHistory(requestId)]);setItem(a);setActivity(b.filter(x=>x.request_id===requestId));setHistory(c)}catch{}};
+ const{refresh,refreshing,lastSync}=useTabRefresh(load);
+ useEffect(()=>{load();const t=setInterval(load,5000);return()=>clearInterval(t)},[requestId]);
+ async function setStatus(next){if(!item||next===item.status)return;setBusy(true);try{await updateAssistanceRequest(item.id,next,operatorNote);setOperatorNote("");await load()}catch{}finally{setBusy(false)}}
+ if(!item)return <div className="dashboard"><Header view="incidents" onNavigate={onNavigate}/><div className="full-page"><div className="empty large">Loading incident…</div></div></div>;
+ const current=steps.indexOf(item.status);
+ return <div className="dashboard"><Header view="incidents" onNavigate={onNavigate}/><div className="full-page incident-detail-page">
+  <div className="page-heading"><div><button className="back-btn" onClick={onBack}>← Back</button><span className="kicker">INCIDENT DETAIL / {item.source||"UNKNOWN SOURCE"}</span><h2>{item.id} · {item.type}</h2><p>{item.address_text||"Coordinates received"} · {item.report_count||1} reports · {item.people_count||1} people affected</p></div><div className="heading-tools"><span className="sync-label">{lastSync?`Synced ${lastSync.toLocaleTimeString([],{hour:"2-digit",minute:"2-digit"})}`:"Ready"}</span><button className="refresh-btn" onClick={refresh}>{refreshing?"Syncing…":"↻ Refresh tab"}</button><span className={`status-chip ${statusClass(item.status)}`}>{item.status}</span></div></div>
+  <div className="detail-grid">
+   <div className="ops-card"><div className="card-head"><div><span className="kicker">MISSION STATE</span><h2>Response progression</h2></div></div><div className="timeline-steps">{steps.map((s,i)=><button className={`step ${i<=current?"active":""} ${i===current?"current":""}`} key={s} onClick={()=>i===current||i!==current+1?null:setStatus(s)}><span>{i+1}</span><b>{s}</b></button>)}</div><div className="operator-note"><input value={operatorNote} onChange={e=>setOperatorNote(e.target.value)} placeholder="Optional operational note…"/><div className="detail-actions"><button className="primary-action" disabled={busy||current>=steps.length-1} onClick={()=>setStatus(steps[Math.min(current+1,steps.length-1)])}>{busy?"Updating…":current>=steps.length-1?"Resolved":"Advance to next stage"}</button></div></div></div>
+   <div className="ops-card"><div className="card-head"><div><span className="kicker">INCIDENT PROFILE</span><h2>Operational facts</h2></div></div><div className="facts-grid"><div><span>Priority</span><b>{item.priority||"High"}</b></div><div><span>Reports</span><b>{item.report_count||1}</b></div><div><span>People</span><b>{item.people_count||1}</b></div><div><span>Injured</span><b>{item.injured||"Unknown"}</b></div><div><span>Area signal</span><b>{item.area_status||"Watch"}</b></div><div><span>Responder</span><b>{item.assigned_responder||"Unassigned"}</b></div></div><div className="notes-box"><span>Evacuation</span><p>{item.recommended_shelter_name||"No safe-zone recommendation stored."}{item.evacuation_duration_min!=null?` · ${item.evacuation_duration_min} min`: ""}{item.evacuation_distance_km!=null?` · ${item.evacuation_distance_km} km`: ""}</p></div></div>
+   <div className="ops-card detail-map-card"><div className="card-head"><div><span className="kicker">GEOSPATIAL CONTEXT</span><h2>Live area</h2></div></div><MapContainer/></div>
+   <div className="ops-card"><div className="card-head"><div><span className="kicker">REPORT HISTORY</span><h2>Incoming evidence</h2></div><span className="count-pill">{history.report_history.length}</span></div><div className="activity-feed">{history.report_history.map((x,i)=><div key={`${x.timestamp}-${i}`}><span className="activity-time">{new Date(x.timestamp).toLocaleTimeString([],{hour:"2-digit",minute:"2-digit"})}</span><span>{x.source||"Unknown"} report{ x.phone?` · ${x.phone}`:""} {x.latitude!=null?` · ${Number(x.latitude).toFixed(4)}, ${Number(x.longitude).toFixed(4)}`:""}</span></div>)}{!history.report_history.length&&<div className="empty">No report history stored.</div>}</div></div>
+   <div className="ops-card"><div className="card-head"><div><span className="kicker">STATE AUDIT</span><h2>Transition history</h2></div></div><div className="activity-feed">{history.status_history.map((x,i)=><div key={`${x.timestamp}-${i}`}><span className="activity-time">{new Date(x.timestamp).toLocaleTimeString([],{hour:"2-digit",minute:"2-digit"})}</span><span><b>{x.from||"Created"} → {x.to}</b>{x.note?` · ${x.note}`:""}</span></div>)}{!history.status_history.length&&<div className="empty">No status transitions stored.</div>}</div></div>
+   <div className="ops-card"><div className="card-head"><div><span className="kicker">ACTIVITY</span><h2>Operational events</h2></div></div><div className="activity-feed">{activity.map(a=><div key={a.id}><span className="activity-time">{new Date(a.timestamp).toLocaleTimeString([],{hour:"2-digit",minute:"2-digit"})}</span><span>{a.message}</span></div>)}</div></div>
+  </div>
+ </div></div>;
+}

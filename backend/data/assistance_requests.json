@@ -1,0 +1,670 @@
+[
+  {
+    "id": "REQ-101",
+    "name": "Old City caller",
+    "phone": null,
+    "latitude": 17.3616,
+    "longitude": 78.4744,
+    "address_text": "Charminar Heritage Zone",
+    "injured": "yes",
+    "people_count": 3,
+    "type": "BUILDING EMERGENCY",
+    "priority": "Critical",
+    "status": "Dispatched",
+    "source": "GIS seed",
+    "notes": "Structural concern at high-risk building.",
+    "timestamp": "2026-09-11T09:41:00",
+    "recommended_shelter_id": "SHELTER_HYD_001",
+    "recommended_shelter_name": "Nizam College Open Grounds Safe Zone",
+    "report_count": 1,
+    "first_report_at": "2026-09-11T09:41:00",
+    "last_report_at": "2026-09-11T09:41:00",
+    "report_history": [
+      {
+        "timestamp": "2026-09-11T09:41:00",
+        "source": "GIS seed",
+        "phone": null,
+        "latitude": 17.3616,
+        "longitude": 78.4744
+      }
+    ],
+    "area_status": "High Alert",
+    "status_history": [
+      {
+        "from": null,
+        "to": "Dispatched",
+        "timestamp": "2026-09-11T09:41:00",
+        "note": "Initial state"
+      }
+    ]
+  },
+  {
+    "id": "REQ-102",
+    "name": "Market witness",
+    "phone": null,
+    "latitude": 17.385,
+    "longitude": 78.4867,
+    "address_text": "Koti Old Market Arcade",
+    "injured": "yes",
+    "people_count": 2,
+    "type": "MEDICAL",
+    "priority": "High",
+    "status": "Acknowledged",
+    "source": "WhatsApp",
+    "notes": "Injuries reported near market entrance.",
+    "timestamp": "2026-09-11T09:47:00",
+    "recommended_shelter_id": "SHELTER_HYD_001",
+    "recommended_shelter_name": "Nizam College Open Grounds Safe Zone",
+    "report_count": 1,
+    "first_report_at": "2026-09-11T09:47:00",
+    "last_report_at": "2026-09-11T09:47:00",
+    "report_history": [
+      {
+        "timestamp": "2026-09-11T09:47:00",
+        "source": "WhatsApp",
+        "phone": null,
+        "latitude": 17.385,
+        "longitude": 78.4867
+      }
+    ],
+    "area_status": "High Alert",
+    "status_history": [
+      {
+        "from": null,
+        "to": "Acknowledged",
+        "timestamp": "2026-09-11T09:47:00",
+        "note": "Initial state"
+      }
+    ]
+  },
+  {
+    "id": "REQ-103",
+    "name": "Resident report",
+    "phone": null,
+    "latitude": 17.4435,
+    "longitude": 78.4735,
+    "address_text": "Begumpet Commercial Plaza",
+    "injured": "no",
+    "people_count": 5,
+    "type": "EVACUATION",
+    "priority": "High",
+    "status": "Pending",
+    "source": "Web",
+    "notes": "Residents requesting assisted evacuation.",
+    "timestamp": "2026-09-11T09:53:00",
+    "recommended_shelter_id": "SHELTER_HYD_002",
+    "recommended_shelter_name": "GVK City Open Grounds Safe Zone",
+    "report_count": 1,
+    "first_report_at": "2026-09-11T09:53:00",
+    "last_report_at": "2026-09-11T09:53:00",
+    "report_history": [
+      {
+        "timestamp": "2026-09-11T09:53:00",
+        "source": "Web",
+        "phone": null,
+        "latitude": 17.4435,
+        "longitude": 78.4735
+      }
+    ],
+    "area_status": "Disaster Prone",
+    "status_history": [
+      {
+        "from": null,
+        "to": "Pending",
+        "timestamp": "2026-09-11T09:53:00",
+        "note": "Initial state"
+      }
+    ]
+  },
+  {
+    "id": "REQ-104",
+    "name": "South Zone resident",
+    "phone": "demo-req-104",
+    "latitude": 17.352,
+    "longitude": 78.548,
+    "address_text": "LB Nagar Junction Shopping Complex",
+    "injured": "yes",
+    "people_count": 6,
+    "type": "FIRE",
+    "priority": "Critical",
+    "status": "Dispatched",
+    "source": "WhatsApp",
+    "notes": "Multiple independent reports are clustered here; scenario marks this area as escalating.",
+    "timestamp": "2026-09-11T09:20:00",
+    "report_count": 4,
+    "first_report_at": "2026-09-11T09:20:00",
+    "last_report_at": "2026-09-11T09:51:00",
+    "report_history": [
+      {
+        "timestamp": "2026-09-11T09:27:00",
+        "source": "WhatsApp",
+        "phone": "demo-wa-104-a",
+        "latitude": 17.352,
+        "longitude": 78.548
+      },
+      {
+        "timestamp": "2026-09-11T09:36:00",
+        "source": "WhatsApp",
+        "phone": "demo-wa-104-b",
+        "latitude": 17.3524,
+        "longitude": 78.5476
+      },
+      {
+        "timestamp": "2026-09-11T09:43:00",
+        "source": "Web",
+        "phone": null,
+        "latitude": 17.353,
+        "longitude": 78.5485
+      },
+      {
+        "timestamp": "2026-09-11T09:51:00",
+        "source": "WhatsApp",
+        "phone": "demo-wa-104-c",
+        "latitude": 17.3517,
+        "longitude": 78.5481
+      }
+    ],
+    "area_status": "Disaster Prone",
+    "status_history": [
+      {
+        "from": null,
+        "to": "Dispatched",
+        "timestamp": "2026-09-11T09:20:00",
+        "note": "Initial state"
+      }
+    ]
+  },
+  {
+    "id": "REQ-105",
+    "name": "Jubilee Hills caller",
+    "phone": "demo-req-105",
+    "latitude": 17.4239,
+    "longitude": 78.4312,
+    "address_text": "Jubilee Hills Checkpost Center",
+    "injured": "yes",
+    "people_count": 2,
+    "type": "MEDICAL",
+    "priority": "High",
+    "status": "Acknowledged",
+    "source": "WhatsApp",
+    "notes": "Scenario data for multi-report operational testing.",
+    "timestamp": "2026-09-11T09:20:00",
+    "report_count": 1,
+    "first_report_at": "2026-09-11T09:20:00",
+    "last_report_at": "2026-09-11T09:20:00",
+    "report_history": [
+      {
+        "timestamp": "2026-09-11T09:20:00",
+        "source": "WhatsApp",
+        "phone": "demo-req-105",
+        "latitude": 17.4239,
+        "longitude": 78.4312
+      }
+    ],
+    "area_status": "Watch",
+    "status_history": [
+      {
+        "from": null,
+        "to": "Acknowledged",
+        "timestamp": "2026-09-11T09:20:00",
+        "note": "Initial state"
+      }
+    ]
+  },
+  {
+    "id": "REQ-106",
+    "name": "Kukatpally witness",
+    "phone": null,
+    "latitude": 17.4932,
+    "longitude": 78.4011,
+    "address_text": "Kukatpally Housing Board Market",
+    "injured": "no",
+    "people_count": 8,
+    "type": "STRUCTURAL",
+    "priority": "High",
+    "status": "Pending",
+    "source": "Web",
+    "notes": "Scenario data for multi-report operational testing.",
+    "timestamp": "2026-09-11T09:20:00",
+    "report_count": 1,
+    "first_report_at": "2026-09-11T09:20:00",
+    "last_report_at": "2026-09-11T09:20:00",
+    "report_history": [
+      {
+        "timestamp": "2026-09-11T09:20:00",
+        "source": "Web",
+        "phone": null,
+        "latitude": 17.4932,
+        "longitude": 78.4011
+      }
+    ],
+    "area_status": "Watch",
+    "status_history": [
+      {
+        "from": null,
+        "to": "Pending",
+        "timestamp": "2026-09-11T09:20:00",
+        "note": "Initial state"
+      }
+    ]
+  },
+  {
+    "id": "REQ-107",
+    "name": "HITEC City security",
+    "phone": null,
+    "latitude": 17.4486,
+    "longitude": 78.3812,
+    "address_text": "HITEC City Cyber Towers Annexe",
+    "injured": "no",
+    "people_count": 12,
+    "type": "EVACUATION",
+    "priority": "Medium",
+    "status": "Dispatched",
+    "source": "Web",
+    "notes": "Scenario data for multi-report operational testing.",
+    "timestamp": "2026-09-11T09:20:00",
+    "report_count": 1,
+    "first_report_at": "2026-09-11T09:20:00",
+    "last_report_at": "2026-09-11T09:20:00",
+    "report_history": [
+      {
+        "timestamp": "2026-09-11T09:20:00",
+        "source": "Web",
+        "phone": null,
+        "latitude": 17.4486,
+        "longitude": 78.3812
+      }
+    ],
+    "area_status": "Watch",
+    "status_history": [
+      {
+        "from": null,
+        "to": "Dispatched",
+        "timestamp": "2026-09-11T09:20:00",
+        "note": "Initial state"
+      }
+    ]
+  },
+  {
+    "id": "REQ-108",
+    "name": "Malakpet resident",
+    "phone": "demo-req-108",
+    "latitude": 17.37,
+    "longitude": 78.525,
+    "address_text": "Malakpet Residential Enclave",
+    "injured": "yes",
+    "people_count": 4,
+    "type": "MEDICAL",
+    "priority": "Medium",
+    "status": "Pending",
+    "source": "WhatsApp",
+    "notes": "Scenario data for multi-report operational testing.",
+    "timestamp": "2026-09-11T09:20:00",
+    "report_count": 1,
+    "first_report_at": "2026-09-11T09:20:00",
+    "last_report_at": "2026-09-11T09:20:00",
+    "report_history": [
+      {
+        "timestamp": "2026-09-11T09:20:00",
+        "source": "WhatsApp",
+        "phone": "demo-req-108",
+        "latitude": 17.37,
+        "longitude": 78.525
+      }
+    ],
+    "area_status": "Watch",
+    "status_history": [
+      {
+        "from": null,
+        "to": "Pending",
+        "timestamp": "2026-09-11T09:20:00",
+        "note": "Initial state"
+      }
+    ]
+  },
+  {
+    "id": "REQ-109",
+    "name": "Begumpet tenant",
+    "phone": "demo-req-109",
+    "latitude": 17.4435,
+    "longitude": 78.4735,
+    "address_text": "Begumpet Commercial Plaza",
+    "injured": "yes",
+    "people_count": 5,
+    "type": "STRUCTURAL",
+    "priority": "Critical",
+    "status": "Acknowledged",
+    "source": "WhatsApp",
+    "notes": "Repeated reports in the same 1 km area indicate an escalating hotspot.",
+    "timestamp": "2026-09-11T09:20:00",
+    "report_count": 3,
+    "first_report_at": "2026-09-11T09:20:00",
+    "last_report_at": "2026-09-11T09:58:00",
+    "report_history": [
+      {
+        "timestamp": "2026-09-11T09:41:00",
+        "source": "WhatsApp",
+        "phone": "demo-wa-109-a",
+        "latitude": 17.4435,
+        "longitude": 78.4735
+      },
+      {
+        "timestamp": "2026-09-11T09:48:00",
+        "source": "WhatsApp",
+        "phone": "demo-wa-109-b",
+        "latitude": 17.4438,
+        "longitude": 78.474
+      },
+      {
+        "timestamp": "2026-09-11T09:58:00",
+        "source": "WhatsApp",
+        "phone": "demo-wa-109-c",
+        "latitude": 17.4432,
+        "longitude": 78.4732
+      }
+    ],
+    "area_status": "Disaster Prone",
+    "status_history": [
+      {
+        "from": null,
+        "to": "Acknowledged",
+        "timestamp": "2026-09-11T09:20:00",
+        "note": "Initial state"
+      }
+    ]
+  },
+  {
+    "id": "REQ-110",
+    "name": "RAKSHA Drill User",
+    "phone": null,
+    "latitude": 17.352,
+    "longitude": 78.548,
+    "address_text": "LB Nagar Junction Shopping Complex",
+    "injured": "no",
+    "people_count": 4,
+    "type": "FIRE",
+    "priority": "Critical",
+    "status": "Pending",
+    "source": "Drill",
+    "notes": "Synthetic integration test report",
+    "timestamp": "2026-09-11T11:43:54.713518",
+    "report_count": 1,
+    "first_report_at": "2026-09-11T11:43:54.713518",
+    "last_report_at": "2026-09-11T11:43:54.713518",
+    "report_history": [
+      {
+        "timestamp": "2026-09-11T11:43:54.713518",
+        "source": "Drill",
+        "phone": null,
+        "latitude": 17.352,
+        "longitude": 78.548
+      }
+    ],
+    "area_status": "Disaster Prone",
+    "status_history": [
+      {
+        "from": null,
+        "to": "Pending",
+        "timestamp": "2026-09-11T11:43:54.713518",
+        "note": "Initial intake"
+      }
+    ],
+    "recommended_shelter_id": "SHELTER_HYD_005",
+    "recommended_shelter_name": "LB Nagar Indoor Stadium Safe Zone",
+    "evacuation_distance_km": 1.782,
+    "evacuation_duration_min": 3.85,
+    "evacuation_reason": "LB Nagar Indoor Stadium Safe Zone was chosen from the 5 nearest safe zones (by straight-line distance) because it has the shortest real road travel time (3.85 min, 1.782 km), beating Nizam College Open Grounds Safe Zone, Gymkhana Grounds Safe Zone, GVK City Open Grounds Safe Zone, HITEX Exhibition Center Safe Zone once actual road access was checked via OSRM."
+  },
+  {
+    "id": "REQ-111",
+    "name": "RAKSHA Drill User",
+    "phone": null,
+    "latitude": 17.4435,
+    "longitude": 78.4735,
+    "address_text": "Begumpet Commercial Plaza",
+    "injured": "no",
+    "people_count": 5,
+    "type": "EVACUATION",
+    "priority": "High",
+    "status": "Pending",
+    "source": "Drill",
+    "notes": "Synthetic integration test report",
+    "timestamp": "2026-09-11T12:25:13.623715",
+    "report_count": 1,
+    "first_report_at": "2026-09-11T12:25:13.623715",
+    "last_report_at": "2026-09-11T12:25:13.623715",
+    "report_history": [
+      {
+        "timestamp": "2026-09-11T12:25:13.623715",
+        "source": "Drill",
+        "phone": null,
+        "latitude": 17.4435,
+        "longitude": 78.4735
+      }
+    ],
+    "area_status": "Disaster Prone",
+    "status_history": [
+      {
+        "from": null,
+        "to": "Pending",
+        "timestamp": "2026-09-11T12:25:13.623715",
+        "note": "Initial intake"
+      }
+    ],
+    "recommended_shelter_id": "SHELTER_HYD_004",
+    "recommended_shelter_name": "Gymkhana Grounds Safe Zone",
+    "evacuation_distance_km": 4.714,
+    "evacuation_duration_min": 6.18,
+    "evacuation_reason": "Gymkhana Grounds Safe Zone was chosen from the 5 nearest safe zones (by straight-line distance) because it has the shortest real road travel time (6.18 min, 4.714 km), beating GVK City Open Grounds Safe Zone, Nizam College Open Grounds Safe Zone, HITEX Exhibition Center Safe Zone, LB Nagar Indoor Stadium Safe Zone once actual road access was checked via OSRM."
+  },
+  {
+    "id": "REQ-112",
+    "name": "Citizen (web dashboard)",
+    "phone": null,
+    "latitude": 17.520006933297044,
+    "longitude": 78.36765312729163,
+    "address_text": null,
+    "injured": "no",
+    "people_count": 1,
+    "type": "SOS",
+    "priority": "Critical",
+    "status": "Pending",
+    "source": "Web",
+    "notes": "",
+    "timestamp": "2026-09-11T12:32:14.529575",
+    "report_count": 1,
+    "first_report_at": "2026-09-11T12:32:14.529575",
+    "last_report_at": "2026-09-11T12:32:14.529575",
+    "report_history": [
+      {
+        "timestamp": "2026-09-11T12:32:14.529575",
+        "source": "Web",
+        "phone": null,
+        "latitude": 17.520006933297044,
+        "longitude": 78.36765312729163
+      }
+    ],
+    "area_status": "Disaster Prone",
+    "status_history": [
+      {
+        "from": null,
+        "to": "Pending",
+        "timestamp": "2026-09-11T12:32:14.529575",
+        "note": "Initial intake"
+      }
+    ],
+    "recommended_shelter_id": "SHELTER_HYD_003",
+    "recommended_shelter_name": "HITEX Exhibition Center Safe Zone",
+    "evacuation_distance_km": 11.899,
+    "evacuation_duration_min": 15.06,
+    "evacuation_reason": "HITEX Exhibition Center Safe Zone was chosen from the 5 nearest safe zones (by straight-line distance) because it has the shortest real road travel time (15.06 min, 11.899 km), beating GVK City Open Grounds Safe Zone, Gymkhana Grounds Safe Zone, Nizam College Open Grounds Safe Zone, LB Nagar Indoor Stadium Safe Zone once actual road access was checked via OSRM."
+  },
+  {
+    "id": "REQ-113",
+    "name": "Citizen (web dashboard)",
+    "phone": null,
+    "latitude": 17.520006933297044,
+    "longitude": 78.36765312729163,
+    "address_text": null,
+    "injured": "no",
+    "people_count": 1,
+    "type": "SOS",
+    "priority": "Critical",
+    "status": "Pending",
+    "source": "Web",
+    "notes": "",
+    "timestamp": "2026-09-11T12:32:21.493421",
+    "report_count": 1,
+    "first_report_at": "2026-09-11T12:32:21.493421",
+    "last_report_at": "2026-09-11T12:32:21.493421",
+    "report_history": [
+      {
+        "timestamp": "2026-09-11T12:32:21.493421",
+        "source": "Web",
+        "phone": null,
+        "latitude": 17.520006933297044,
+        "longitude": 78.36765312729163
+      }
+    ],
+    "area_status": "Disaster Prone",
+    "status_history": [
+      {
+        "from": null,
+        "to": "Pending",
+        "timestamp": "2026-09-11T12:32:21.493421",
+        "note": "Initial intake"
+      }
+    ],
+    "recommended_shelter_id": "SHELTER_HYD_003",
+    "recommended_shelter_name": "HITEX Exhibition Center Safe Zone",
+    "evacuation_distance_km": 11.899,
+    "evacuation_duration_min": 15.06,
+    "evacuation_reason": "HITEX Exhibition Center Safe Zone was chosen from the 5 nearest safe zones (by straight-line distance) because it has the shortest real road travel time (15.06 min, 11.899 km), beating GVK City Open Grounds Safe Zone, Gymkhana Grounds Safe Zone, Nizam College Open Grounds Safe Zone, LB Nagar Indoor Stadium Safe Zone once actual road access was checked via OSRM."
+  },
+  {
+    "id": "REQ-114",
+    "name": "Citizen (web dashboard)",
+    "phone": null,
+    "latitude": 17.520208714792833,
+    "longitude": 78.3674497665617,
+    "address_text": null,
+    "injured": "no",
+    "people_count": 1,
+    "type": "SOS",
+    "priority": "Critical",
+    "status": "Pending",
+    "source": "Web",
+    "notes": "",
+    "timestamp": "2026-09-11T12:38:32.487127",
+    "report_count": 1,
+    "first_report_at": "2026-09-11T12:38:32.487127",
+    "last_report_at": "2026-09-11T12:38:32.487127",
+    "report_history": [
+      {
+        "timestamp": "2026-09-11T12:38:32.487127",
+        "source": "Web",
+        "phone": null,
+        "latitude": 17.520208714792833,
+        "longitude": 78.3674497665617
+      }
+    ],
+    "area_status": "Disaster Prone",
+    "status_history": [
+      {
+        "from": null,
+        "to": "Pending",
+        "timestamp": "2026-09-11T12:38:32.487127",
+        "note": "Initial intake"
+      }
+    ],
+    "recommended_shelter_id": "SHELTER_HYD_003",
+    "recommended_shelter_name": "HITEX Exhibition Center Safe Zone",
+    "evacuation_distance_km": 11.899,
+    "evacuation_duration_min": 15.06,
+    "evacuation_reason": "HITEX Exhibition Center Safe Zone was chosen from the 5 nearest safe zones (by straight-line distance) because it has the shortest real road travel time (15.06 min, 11.899 km), beating GVK City Open Grounds Safe Zone, Gymkhana Grounds Safe Zone, Nizam College Open Grounds Safe Zone, LB Nagar Indoor Stadium Safe Zone once actual road access was checked via OSRM."
+  },
+  {
+    "id": "REQ-115",
+    "name": "RAKSHA Drill User",
+    "phone": null,
+    "latitude": 17.4435,
+    "longitude": 78.4735,
+    "address_text": "Begumpet Commercial Plaza",
+    "injured": "no",
+    "people_count": 5,
+    "type": "EVACUATION",
+    "priority": "High",
+    "status": "Pending",
+    "source": "Drill",
+    "notes": "Synthetic integration test report",
+    "timestamp": "2026-09-11T12:50:50.269271",
+    "report_count": 1,
+    "first_report_at": "2026-09-11T12:50:50.269271",
+    "last_report_at": "2026-09-11T12:50:50.269271",
+    "report_history": [
+      {
+        "timestamp": "2026-09-11T12:50:50.269271",
+        "source": "Drill",
+        "phone": null,
+        "latitude": 17.4435,
+        "longitude": 78.4735
+      }
+    ],
+    "area_status": "Disaster Prone",
+    "status_history": [
+      {
+        "from": null,
+        "to": "Pending",
+        "timestamp": "2026-09-11T12:50:50.269271",
+        "note": "Initial intake"
+      }
+    ],
+    "recommended_shelter_id": "SHELTER_HYD_004",
+    "recommended_shelter_name": "Gymkhana Grounds Safe Zone",
+    "evacuation_distance_km": 4.714,
+    "evacuation_duration_min": 6.18,
+    "evacuation_reason": "Gymkhana Grounds Safe Zone was chosen from the 5 nearest safe zones (by straight-line distance) because it has the shortest real road travel time (6.18 min, 4.714 km), beating GVK City Open Grounds Safe Zone, Nizam College Open Grounds Safe Zone, HITEX Exhibition Center Safe Zone, LB Nagar Indoor Stadium Safe Zone once actual road access was checked via OSRM."
+  },
+  {
+    "id": "REQ-116",
+    "name": "RAKSHA Drill User",
+    "phone": null,
+    "latitude": 17.4435,
+    "longitude": 78.4735,
+    "address_text": "Begumpet Commercial Plaza",
+    "injured": "no",
+    "people_count": 5,
+    "type": "EVACUATION",
+    "priority": "High",
+    "status": "Pending",
+    "source": "Drill",
+    "notes": "Synthetic integration test report",
+    "timestamp": "2026-09-11T14:23:12.769666",
+    "report_count": 1,
+    "first_report_at": "2026-09-11T14:23:12.769666",
+    "last_report_at": "2026-09-11T14:23:12.769666",
+    "report_history": [
+      {
+        "timestamp": "2026-09-11T14:23:12.769666",
+        "source": "Drill",
+        "phone": null,
+        "latitude": 17.4435,
+        "longitude": 78.4735
+      }
+    ],
+    "area_status": "Disaster Prone",
+    "status_history": [
+      {
+        "from": null,
+        "to": "Pending",
+        "timestamp": "2026-09-11T14:23:12.769666",
+        "note": "Initial intake"
+      }
+    ],
+    "recommended_shelter_id": "SHELTER_HYD_004",
+    "recommended_shelter_name": "Gymkhana Grounds Safe Zone",
+    "evacuation_distance_km": 4.714,
+    "evacuation_duration_min": 6.18,
+    "evacuation_reason": "Gymkhana Grounds Safe Zone was chosen from the 5 nearest safe zones (by straight-line distance) because it has the shortest real road travel time (6.18 min, 4.714 km), beating GVK City Open Grounds Safe Zone, Nizam College Open Grounds Safe Zone, HITEX Exhibition Center Safe Zone, LB Nagar Indoor Stadium Safe Zone once actual road access was checked via OSRM."
+  }
+]
